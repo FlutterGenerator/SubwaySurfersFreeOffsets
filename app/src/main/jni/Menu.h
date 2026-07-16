@@ -37,14 +37,14 @@ void setText(JNIEnv *env, jobject obj, const char* text){
 extern "C" {
 JNIEXPORT void JNICALL
 Java_com_dz_offset_FloatingModMenuService_setTitleText(JNIEnv *env, jobject thiz, jobject obj) {
-    setText(env, obj, OBFUSCATE("<b>DZ OFFSETS</b>"));
+    setText(env, obj, OBFUSCATE("<b>DZ MODS</b>"));
 
     titleValid = true;
 }
 
 JNIEXPORT void JNICALL
 Java_com_dz_offset_FloatingModMenuService_setHeadingText(JNIEnv *env, jobject thiz, jobject obj) {
-    setText(env, obj, OBFUSCATE("Deadtarget - Dumper"));
+    setText(env, obj, OBFUSCATE("Subway Surf - Free Dumper"));
 
     headingValid = true;
 }
